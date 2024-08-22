@@ -19,6 +19,15 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Calorie Calculator"
+rootProject.name = "CalorieCalculator"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
- 
+include(":core:ui-kit")
+include(":core:common")
+include(":core:network")
+include(":core:model")
+include(":core:database")
+include(":feature:test")
+include(":core:data")
+include(":core:domain")
